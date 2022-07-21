@@ -179,7 +179,7 @@
 
 @media (max-width: 385px){
     body {
-        border: 1px solid red;
+        margin: 0;
     }
     
     .container {
@@ -188,6 +188,7 @@
 
     .search_bar {
         width: 85vw;
+        margin: auto;
     }
 
     .recent_icons {
@@ -195,13 +196,12 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        border: 1px solid red;
         width: 85vw;
+        margin: auto;
     }
 
     .show {
         width: 25vw;
-        border: 1px solid red;
     }
 
     .none{
