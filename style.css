@@ -187,13 +187,25 @@
     }
 
     .search_bar {
-        width: 85vw;
+        width: 90vw;
         margin: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid red;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    .search_bar > * {
+        border: 1px solid red;
     }
 
     .recent_icons {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         width: 85vw;
@@ -202,6 +214,12 @@
 
     .show {
         width: 25vw;
+        border: 1px solid red;
+    }
+
+    .custom {
+        width: 35px;
+        border-radius: 60px;
     }
 
     .none{
