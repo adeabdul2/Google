@@ -12,6 +12,10 @@
     margin-right: 20px;
 }
 
+.fa-solid {
+    color: blue;
+}
+
 .fa-solid:hover {
     cursor:pointer;
 }
@@ -180,16 +184,19 @@
 @media (max-width: 385px){
     body {
         margin: 0;
+        overflow: scroll;
     }
     
     .container {
         width: 95vw;
+        padding-bottom: 30px;
     }
 
     .search_bar {
         width: 90vw;
         margin: auto;
         margin-top: 40px;
+        margin-bottom: 10px;
         display: flex;
         justify-content: space-around;
         border: 1px solid red;
@@ -199,8 +206,13 @@
         text-align: center;
     }
 
-    .search_bar > * {
-        border: 1px solid red;
+    .search {
+        flex: 8;
+    }
+
+    .fa-solid {
+        flex:2;
+        color: blue;
     }
 
     .recent_icons {
@@ -214,7 +226,6 @@
 
     .show {
         width: 25vw;
-        border: 1px solid red;
     }
 
     .custom {
