@@ -26,12 +26,6 @@
     cursor:pointer;
 }
 
-.bgr_icon:hover {
-    background:  white;
-    border: 1px solid #00569d;
-    cursor:pointer;
-}
-
 .body {
     margin: 0;
 }
@@ -85,11 +79,15 @@
 }
 
 .bgr_icon {
-    background: #e5e5e5;
+    background: #f6f6f6;
     width: 50px;
     height: 50px;
     border-radius: 40px;
-    
+}
+
+.bgr_icon:hover {
+    background:  white;
+    cursor:pointer;
 }
 
 .icons {
@@ -100,7 +98,7 @@
 
 .icon {
     border-radius: 65px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .ico {
@@ -121,11 +119,19 @@
     margin-top: 10px;
 }
 
+.show:hover {
+    background: #f2f2f2;;
+}
+
 .line {
     display: inline;
     font-size: 12px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .machu {
@@ -146,6 +152,10 @@
     color: #00569d;
 }
 
+.machu:hover {
+    cursor:pointer;
+}
+
 .custom {
     display: flex;
     justify-content: space-evenly;
@@ -163,4 +173,8 @@
     position: fixed;
     left: 0;
     bottom: 10px;
+}
+
+.custom:hover {
+    cursor:pointer;
 }
