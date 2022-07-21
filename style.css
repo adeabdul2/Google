@@ -199,7 +199,6 @@
         margin-bottom: 10px;
         display: flex;
         justify-content: space-around;
-        border: 1px solid red;
     }
 
     input {
@@ -207,12 +206,16 @@
     }
 
     .search {
-        flex: 8;
+        flex: 4;
     }
 
     .fa-solid {
-        flex:2;
-        color: blue;
+        flex: 1;
+        color: lightslategrey;
+    }
+
+    .fa-none {
+        flex: none;
     }
 
     .recent_icons {
