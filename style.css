@@ -176,3 +176,35 @@
 .custom:hover {
     cursor:pointer;
 }
+
+@media (max-width: 385px){
+    body {
+        border: 1px solid red;
+    }
+    
+    .container {
+        width: 95vw;
+    }
+
+    .search_bar {
+        width: 85vw;
+    }
+
+    .recent_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 1px solid red;
+        width: 85vw;
+    }
+
+    .show {
+        width: 25vw;
+        border: 1px solid red;
+    }
+
+    .none{
+        display: none;
+    }
+}
