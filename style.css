@@ -12,12 +12,24 @@
     margin-right: 20px;
 }
 
+.fa-solid:hover {
+    cursor:pointer;
+}
+
 .gmail:hover {
     text-decoration: underline;
+    cursor:pointer;
 }
 
 .nav_back:hover {
     background: #e5e5e5;
+    cursor:pointer;
+}
+
+.bgr_icon:hover {
+    background:  white;
+    border: 1px solid #00569d;
+    cursor:pointer;
 }
 
 .body {
